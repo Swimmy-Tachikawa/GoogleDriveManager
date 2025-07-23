@@ -57,5 +57,5 @@ GoogleDriveManager/
 - google-auth-oauthlib
 
 ## ライセンス
-MIT License
+MIT License  
 file = LICENSE
