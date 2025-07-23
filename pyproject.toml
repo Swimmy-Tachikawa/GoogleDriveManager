@@ -6,12 +6,12 @@ authors = [
     { name = "KutoKashinoki", email = "swimmy.kashiwagi@gmail.com" }
 ]
 readme = "README.md"
-license = { text = "MIT" }
+license = "LICENCE"
 requires-python = ">=3.10"
 dependencies = [
     "requests",
     "google-auth",
-    "google-auth-oauthlib"
+    "google-auth-oauthlib",
 ]
 
 [project.urls]
