@@ -51,10 +51,10 @@ GoogleDriveManager/
 
 ## 必要要件
 - python3.10+
-以下はライブラリインストール時に自動でインストールを試みる
-- requests
-- google-auth
-- google-auth-oauthlib
+- 以下はライブラリインストール時に自動でインストールを試みる
+  - requests
+  - google-auth
+  - google-auth-oauthlib
 
 ## ライセンス
 MIT License  
