@@ -22,14 +22,40 @@ GoogleDriveManager は、APIキー制御とコマンドスタイルのインタ�
 - 他プロジェクトへの組込や PyInstaller による実行バイナリ化を想定した構造
 
 ## インストール方法
-
 ```bash
 pip install git+https://github.com/your-username/GoogleDriveManager.git
 ```
 
 ## 使用例
-|from googledrivemanager import GoogleDriveController
+```python
+from googledrivemanager import GoogleDriveController
 
 gdm = GoogleDriveController("apikey.txt")
-gdm.upload("sample.txt")|
-|*-|
+gdm.upload("sample.txt")
+```
+
+
+## プロジェクト構成
+```pgsql
+GoogleDriveManager/
+├── src/
+│   └── googledrivemanager/
+│       ├── info.py
+│       ├── controller.py
+│       ├── functions.py
+│       └── utils.py
+├── pyproject.toml
+├── README.md
+└── LICENSE
+```
+
+## 必要要件
+- python3.10+
+以下はライブラリインストール時に自動でインストールを試みる
+- requests
+- google-auth
+- google-auth-oauthlib
+
+## ライセンス
+MIT License
+file = LICENSE
