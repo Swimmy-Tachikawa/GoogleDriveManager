@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "GoogleDriveManager"
 version = "0.1.0"
@@ -6,7 +10,7 @@ authors = [
     { name = "KutoKashinoki", email = "swimmy.kashiwagi@gmail.com" }
 ]
 readme = "README.md"
-license = "LICENCE"
+license = {file="LICENCE"}
 requires-python = ">=3.10"
 dependencies = [
     "requests",
@@ -16,14 +20,3 @@ dependencies = [
 
 [project.urls]
 "Homepage" = "https://github.com/your-username/GoogleDriveManager"
-
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
-
-[tool.setuptools.packages.find]
-where = ["src"]
-
-[tool.setuptools]
-package-dir = {"" = "src"}
-include-package-data = true
