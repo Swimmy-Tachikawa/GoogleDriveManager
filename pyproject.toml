@@ -13,9 +13,9 @@ readme = "README.md"
 license = {file="LICENCE"}
 requires-python = ">=3.10"
 dependencies = [
-    "requests",
     "google-auth",
     "google-auth-oauthlib",
+    "google-api-python-client"
 ]
 
 [project.urls]
