@@ -40,8 +40,12 @@ gdm.upload("sample.txt")
 GoogleDriveManager/
 ├── src/
 │   └── googledrivemanager/
-│       ├── access.py
-│       └── controller.py
+│       ├── __init__.py
+│       ├── drive_access.py
+│       ├── drive_file_system.py
+│       ├── drive_manager.py
+│       ├── main.py
+│       └── command.py
 ├── pyproject.toml
 ├── README.md
 └── LICENSE
