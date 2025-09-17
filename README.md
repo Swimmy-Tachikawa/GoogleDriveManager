@@ -40,10 +40,8 @@ gdm.upload("sample.txt")
 GoogleDriveManager/
 ├── src/
 │   └── googledrivemanager/
-│       ├── info.py
-│       ├── controller.py
-│       ├── functions.py
-│       └── utils.py
+│       ├── access.py
+│       └── controller.py
 ├── pyproject.toml
 ├── README.md
 └── LICENSE
@@ -52,9 +50,9 @@ GoogleDriveManager/
 ## 必要要件
 - python3.10+
 - 以下はライブラリインストール時に自動でインストールを試みる
-  - requests
   - google-auth
   - google-auth-oauthlib
+  - googl-api-python-client
 
 ## ライセンス
 MIT License  
